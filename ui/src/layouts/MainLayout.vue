@@ -84,7 +84,7 @@
       </q-list>
     </q-drawer>
 
-    <q-drawer show-if-above v-model="rightDrawerOpen" side="right" bordered class="bg-secondary">
+    <q-drawer show-if-above v-model="rightDrawerOpen" side="right" class="bg-secondary">
       <!-- drawer content -->
     </q-drawer>
 
