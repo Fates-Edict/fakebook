@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh Lpr fFf" class="bg-secondary"> 
-
+    <q-ajax-bar position="top" color="primary" />
     <div class="text-center">
       <img width="250" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" />
     </div>

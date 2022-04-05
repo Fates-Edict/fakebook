@@ -10,7 +10,7 @@
             <q-btn flat outline round color="grey-7" class="q-mr-sm" icon="arrow_back" @click="isSearch = false" />
           </transition>
           <transition v-else appear enter-active-class="animated slideInLeft">
-            <q-avatar class="q-mr-sm">
+            <q-avatar style="cursor: pointer" class="q-mr-sm" @click="$route.push({ name: 'home' })">
               <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/225px-Facebook_f_logo_%282021%29.svg.png">
             </q-avatar>
           </transition>

@@ -13,7 +13,7 @@
 
         <q-separator class="q-my-md" />
 
-        <q-btn label="Create New Account" to="/register" no-caps color="positive" size="lg" class="q-mb-lg" />
+        <q-btn label="Create New Account" to="/register" no-caps color="positive" size="md" class="q-mb-lg" />
       </q-card>
     </div>
   </div>
